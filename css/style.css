@@ -1098,10 +1098,34 @@ h2 .text-cards {
 
 .signup-form .input {
 
+  width: 100%;
+
   padding: 11px;
+  padding-left: 35px;
   margin-bottom: 10px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
+  outline: none;
+}
+
+.signup-form .input:focus {
+  border-color: var(--blue-text);
+}
+
+.signup-form .input:focus + .icon {
+  fill: var(--blue-text);
+}
+
+
+.signup-form .input-wrapper {
+  position: relative;
+}
+
+.signup-form .icon {
+  position: absolute;
+  top: 50%;
+  left: 16px;
+  transform: translateY(-80%);
 }
 
 .signup-form .textarea {
@@ -1121,7 +1145,14 @@ h2 .text-cards {
   letter-spacing: 0.01em;
 
   color: rgba(117, 117, 117, 0.5);
+  outline: none;
 }
+
+.signup-form .textarea:focus {
+  border-color: var(--blue-text);
+}
+
+
 
 .signup-form .text-down {
 
