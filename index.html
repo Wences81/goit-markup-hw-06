@@ -435,11 +435,42 @@
 
   <div data-modal class="backdrop is-hidden">
     <div class="modal">
+      
       <div data-modal-close class="box-close">
         <svg class="button-close" width="11px" height="11px">
           <use href="./images/sprite.svg#icon-Vector"> </use>
         </svg>
       </div>
+      <form class="signup-form">
+        <p class="text-up">Оставьте свои данные, мы вам перезвоним</p>
+
+
+        <div class="group">
+        <label for="name" class="label">Имя</label>
+        <input class="input" type="name" name="name" id="name"/>
+        </div>
+       
+        <div class="group">
+        <label for="phone" class="label">Телефон</label> 
+        <input class="input" type="phone" name="phone" id="phone"/>
+        </div>
+        
+        <div class="group">
+        <label for="email" class="label">Почта</label>  
+        <input class="input" type="email" name="email" id="email"/>
+        </div>
+        
+        <div class="group">
+        <label for="coment" class="label">Комментарий</label>  
+        <textarea class="textarea" rows="6" placeholder="Введите текст" id="coment"></textarea>
+        </div>
+        
+
+        <p class="text-down">Соглашаюсь с рассылкой и принимаю <span class="text-down-span">Условия договора</span></p>
+
+        <button type="submit" class="button-modal">Отправить</button>
+
+      </form>
     </div>
   
   </div>
