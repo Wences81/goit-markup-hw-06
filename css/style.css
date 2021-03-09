@@ -984,6 +984,82 @@ h2 .text-cards {
   margin-left: 70px;
 }
 
+/* FOOTER-THIRD */ 
+
+.footer-third {
+  margin-left: 64px;
+}
+
+
+.footer-mailing .mailing {
+  color: var(--white-text);
+
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  margin-bottom: 20px;
+
+}
+
+.footer-mailing .footer-input {
+
+  width: 358px;
+
+
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+
+  background: var(--black-background);
+  outline: none;
+
+  padding: 15px 16px;
+  margin-right: 12px;
+
+
+}
+
+.footer-mailing .footer-button {
+
+
+  color: var(--white-text);
+  background: #2196F3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
+  outline: none;
+
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.06em;
+
+  padding: 10px 42px 10px 29px;
+}
+
+.footer-button {
+  display: inline-flex;
+  align-items: center;
+}
+
+.icon-button {
+  margin-left: 10px;
+}
+
+
+.submit-button {
+  display: inline-flex;
+  align-items: center;
+}
+
 
 /* MODAL  */
 
@@ -1137,6 +1213,8 @@ h2 .text-cards {
   padding: 12px 16px;
   margin-bottom: 20px;
 
+  
+
   font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -1146,15 +1224,51 @@ h2 .text-cards {
 
   color: rgba(117, 117, 117, 0.5);
   outline: none;
+
+  resize: none;
 }
 
 .signup-form .textarea:focus {
   border-color: var(--blue-text);
 }
 
+/* CHEKBOX */
+
+.span {
+  display: inline-block;
+  width: 16px;
+  height: 15px;
+  border: 2px solid #000000;
+  background: #FFFFFF;
+  border-radius: 2px;
+  margin-right: 8px;
+}
+
+.form-field .checkbox:checked + .span {
+  background-color: #2196F3;
+  border-color: #2196F3;
+  background-image: url(../images/icon-check.svg);
+  background-size: contain;
+  background-position: center;
+  background-origin: border-box;
+
+  
+}
+
+.checkbox {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  position: absolute;
+}
+
+.form-label {
+  display: flex;
+  align-items: center;
+}
 
 
-.signup-form .text-down {
+.signup-form .form-label {
 
   color: var(--grey-text);
 
@@ -1168,14 +1282,28 @@ h2 .text-cards {
   text-align: center;
 
   margin-bottom: 30px;
+  padding-left: 53px;
+  
 
 }
 
 .signup-form .text-down-span {
 
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+
+  letter-spacing: 0.03em;
+  text-decoration-line: underline;
+
+
   color: var(--blue-text);
 
-  text-decoration-line: underline ;
+  margin-left: 5px;
+
+ 
 }
 
 .signup-form .button-modal {
